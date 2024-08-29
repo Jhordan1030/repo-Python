@@ -13,3 +13,4 @@ def verificar_edad():
 
 
 verificar_edad()
+print("Hola")
