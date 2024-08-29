@@ -2,5 +2,5 @@ calcular_edad.py -> calcula la edad si es mayor de 18 o no
 
 ajustado la rama main como rama principal
 
-hola
+cajero -> cajero que hace funciones basicas
 
