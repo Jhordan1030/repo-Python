@@ -6,13 +6,16 @@ def crear_usuario():
     if edad >= 18:
         print("Cuenta creada")
         saldo = float(input("Ingrese su saldo: "))
-        print("Su saldo es: ", saldo)
+        print("Nombre: ", nombre,
+        "\nApellido: ", apellido ,
+          "\nEdad: ", edad , "\nSaldo: ", saldo)
+        
+        
         return saldo
     else:
         print("Cuenta no creada por que eres menor de edad")
-    print("Nombre: ", nombre,
-        "\nApellido: ", apellido ,
-          "\nEdad: ", edad)
+        return None
+    
         
     
 def menu():
@@ -26,13 +29,18 @@ def Depositar(saldo):
     saldo += depositar
     print("Depositaste: " , depositar ,
           "\nTu saldo es: " , saldo)
+    return saldo
 
 def Retirar(saldo):
     retirar = float(input("Cuanto desea retirar: "))
     saldo -= retirar
+    print("Retiraste: " , retirar ,
+          "\nTu saldo es: " , saldo)
+    return saldo
 
 
 saldo = crear_usuario()
+crear_usuario
 while True:
     menu()
     opcion =input("Elija una opcio (1, 2, 3): ")
