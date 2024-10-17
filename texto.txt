@@ -4,3 +4,4 @@ ajustado la rama main como rama principal
 
 cajero -> cajero que hace funciones basicas
 
+creacion de rama-curso y primeros archivos
